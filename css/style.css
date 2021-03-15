@@ -1,0 +1,11 @@
+ #image-container{
+    background:url(/Users/antonioflore/Downloads/progetti/Boolean/html-css-booleaner/img/pattern.png);
+    background-size:contain
+    ;
+    height: 80px;
+    background-color:rgb(16, 150, 233);
+}
+header h1{
+    color:white;
+}
+
