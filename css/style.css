@@ -1,25 +1,21 @@
- main, footer{
-     margin-left: 10%;
-     margin-right: 10%;
- }
- #image-container{
-    background:url(/Users/antonioflore/Downloads/progetti/Boolean/html-css-booleaner/img/pattern.png);
-    background-attachment:fixed;
-    height: 150px;
-    background-color:rgb(16, 150, 233);
-}
-header h1{
-    color:white;
-    font-family: 'Bitter', serif;
-    font-size: 50px;
-    padding: 25px 0 0 10px;
-    background-color: rgba(0, 0, 0, 0.2);
-}
-header span{
-    font-size: 15px;
-    margin: 40px;
+*{
+    box-sizing: border-box;
+    margin:auto;
 }
 
+ #image-container{
+    background:url(/Users/antonioflore/Downloads/progetti/Boolean/html-css-booleaner/img/pattern.png);
+    background-attachment:fixed;    background-color:rgb(16, 150, 233);
+}
+#logo{
+    height: 100px;
+    margin: 80px 0 0 10px;
+}
+
+main h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 .subtitle{
     color: gray;
     font-size: 20px;
@@ -30,12 +26,19 @@ header span{
 }
 #smallsubtitle{
     font-size: 12px;
+    margin-bottom: 20px;
 }
 .description{
-    margin: 0;
+    margin-bottom: 10px;
 }
 .highlighter{
     background-color: yellow;
+}
+div ul {
+    margin-top: 20px;
+}
+table{
+    margin: 20px 0 20px 0;
 }
 .backgroundblue{
     background-color: rgb(11, 179, 230);
@@ -45,13 +48,12 @@ header span{
     background-color: rgb(117, 198, 223);
 }
 
-
 footer p{
     font-weight: bolder;
     color: gray;
     margin-top: 20px;
 }
-#image-description{
+.image-description{
     color: white;
     margin: 60px;
     font-weight: bolder;
@@ -61,11 +63,12 @@ footer p{
     height: 208px;
     width:312px;
     background-image: url(/Users/antonioflore/Downloads/progetti/Boolean/html-css-booleaner/img/monitor.jpg);
-    margin-bottom: 10px;
+    margin: 10px 0 10px 10px;
 }
 .interest-image2{
     height: 207px;
     width:311px;
     background-image: url(/Users/antonioflore/Downloads/progetti/Boolean/html-css-booleaner/img/graph.jpg); 
+    margin: 10px 0 10px 10px;
 }
 
