@@ -6,11 +6,10 @@
 main, footer{
     margin-left: 10%;
     margin-right: 10%;
-
 }
 
  #image-container{
-    background:url(/Users/antonioflore/Downloads/progetti/Boolean/html-css-booleaner/img/pattern.png);
+    background:url(../img/pattern.png);
     background-attachment:fixed;    background-color:rgb(16, 150, 233);
 }
 #logo{
@@ -46,6 +45,12 @@ div ul {
 table{
     margin: 20px 0 20px 0;
 }
+th{
+    text-align: left;
+}
+#w-50{
+    width: 50%;
+}
 .backgroundblue{
     background-color: rgb(11, 179, 230);
     color: white;
@@ -68,12 +73,13 @@ footer p{
 .interest-image1{
     height: 208px;
     width:312px;
-    background-image: url(/Users/antonioflore/Downloads/progetti/Boolean/html-css-booleaner/img/monitor.jpg);
+    background-image: url(../img/monitor.jpg);
     margin: 10px 0 10px 10px;
 }
 .interest-image2{
     height: 207px;
     width:311px;
-    background-image: url(/Users/antonioflore/Downloads/progetti/Boolean/html-css-booleaner/img/graph.jpg); 
+    background-image: url(../img/graph.jpg); 
     margin: 10px 0 10px 10px;
 }
+
